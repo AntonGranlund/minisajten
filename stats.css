@@ -21,11 +21,7 @@ body {
 
 
 
-.allt{
 
-  max-width: px;
-
-}
 
 .topnav {
   overflow: hidden;
@@ -36,7 +32,7 @@ body {
   margin-right: 1%;
   
   width: 30%;
-  height: 43px;
+  height: 40px;
 
   float: right;
   text-align: right;
@@ -119,3 +115,10 @@ body {
 margin-left: 20%;
 margin-top: 10%;
 }
+
+h2{
+
+color: #e73d3d;
+  
+}
+
