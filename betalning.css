@@ -72,8 +72,16 @@ body {
 }
 
 
+i {
 
 
+  margin-left: 100px;
+}
+
+.fa-solid {
+
+  margin-left: 290px;
+}
 
 
 h3 {
@@ -82,7 +90,7 @@ h3 {
   font-size: 250%;
   margin-top: 20%;
   margin-right: 10%;
-  height: 70%;
+  height: 503.99999px;
 }
 
 .namn {
