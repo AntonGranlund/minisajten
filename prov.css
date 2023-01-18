@@ -1,24 +1,17 @@
 
 h1 {
-    font-family:'Fantasy'; font-size: 60px;
-    background-color:rgb(52, 52, 52);
+    font-family:'Fantasy'; font-size: 100px;
+    background-color:rgb(0, 0, 0, 0.2);
     width: 35%;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 3px;
     color: #04AA6D;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: -5px;
+    margin-left: -100px;
+   
 }
 
-.bild {
-    position: absolute;
-right: 0px;
-margin-right: 40px;
-margin-top: 200px;
-width: 40%;
-height: 45%;
 
-}
 
 img {
   width: 100%;
@@ -109,32 +102,20 @@ body {
     text-decoration: none;
   }
   
- .knap {
-  
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin-right:50px ;
-  
 
- }
 
 
 
    /* Extra small devices (phones, 600px and down) */
-   @media all and (min-width:900px) {
+   @media screen and (min-width:800px) {
     
   .bild {
     position: absolute;
 right: 0px;
 margin-right: 40px;
 margin-top: 200px;
-width: 30%;
-height: 25%;
+width: 35%;
+height: 30%;
 
 }
 
@@ -144,16 +125,30 @@ h1{
 }
 
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 800px) {
+
+
+
+
+
+
+.slut {
+
+  margin-top: 10%;
+  font-size: 30px;
+  width: 100%;
+  position: absolute;
   
 }
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) {}
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {}
-.body { width: 1000px;
+
+.bild{
+          
+  background-color:rgb(52, 52, 52);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: #04aa23;}
+  to {background-color:rgb(52, 52, 52);}
 
 }
