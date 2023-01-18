@@ -1,11 +1,159 @@
 
 h1 {
     font-family:'Fantasy'; font-size: 60px;
-
+    background-color:rgb(52, 52, 52);
+    width: 35%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+    color: #04AA6D;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .bild {
     position: absolute;
 right: 0px;
-margin-right: 20px;
+margin-right: 40px;
+margin-top: 200px;
+width: 40%;
+height: 45%;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+   }
+
+      
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(0, 0, 0);
+    padding: 30px;
+    position:sticky; top: 0 ;
+    margin-top: -150px;
+    margin-right: 0%;
+    width: 100%;
+    float: right;
+    text-align: right;
+    opacity: .2;
+  }
+  
+  .topnav a{
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 25px;
+    
+    
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .text {  background-color: rgb(127, 127, 127) ; border-radius: 40%;
+
+        width: 350px;
+        height: 200px;
+        display: block;
+        margin-left: 200px;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 5%;
+        
+
+  }
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    margin-right: 10px;
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .knap {
+  
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin-right:50px ;
+  
+
+ }
+
+
+
+   /* Extra small devices (phones, 600px and down) */
+   @media all and (min-width:900px) {
+    
+  .bild {
+    position: absolute;
+right: 0px;
+margin-right: 40px;
+margin-top: 200px;
+width: 30%;
+height: 25%;
+
+}
+
+h1{
+
+  font-size: 225%;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 800px) {
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
+.body { width: 1000px;
+
 }
